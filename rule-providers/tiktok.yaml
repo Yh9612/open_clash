@@ -4,4 +4,7 @@ payload:
   - DOMAIN-KEYWORD,tiktok
   - DOMAIN-SUFFIX,bytecdn.cn
   - DOMAIN-SUFFIX,musical.ly
-- RULE-SET,tiktok,Proxy
+  rules:
+  - DOMAIN-SUFFIX,tiktokcdn.com,Proxy
+  - DOMAIN-SUFFIX,tiktokv.com,Proxy
+  - DOMAIN-KEYWORD,tiktok,Proxy
